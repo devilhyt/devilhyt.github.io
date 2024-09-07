@@ -1,0 +1,41 @@
+.header {
+  position: fixed;
+  z-index: 100;
+  min-height: var(--header-min-height);
+  background: var(--mantine-color-body);
+  border-bottom: thin solid var(--mantine-color-default-border);
+  align-content: center;
+  inset-inline: 0;
+}
+
+.main {
+  padding-top: var(--header-height);
+  display: grid;
+}
+
+.navMobile {
+  position: fixed;
+  top: var(--header-height);
+  z-index: 99;
+  background-color: var(--mantine-color-body);
+  padding: var(--mantine-spacing-md);
+  inset-inline: 0;
+
+  /* transition */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease-in-out, visibility 0s 0.2s;
+
+  /* responsive */
+  display: grid;
+
+  @media (min-width: $mantine-breakpoint-sm) {
+    display: none;
+  }
+}
+
+.navMobileVisible {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.2s ease-in-out;
+}

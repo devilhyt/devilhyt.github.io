@@ -1,0 +1,92 @@
+{
+  "Nav": {
+    "home": "首頁",
+    "about": "關於我",
+    "projects": "作品",
+    "journey": "時間軸"
+  },
+  "HomePage": {
+    "greet": "哈囉！",
+    "title": "我是",
+    "name": "詳羿",
+    "subtitle": "一位機器人創客"
+  },
+  "AboutPage": {
+    "about me": "關於我",
+    "self intro": "　　哈囉！我是蔡詳羿，一位熱愛智慧機器人的自學者。曾擔任國手及國手教練，代表台灣參加國際機器人競賽。\n\n　　目前，我正在研究深度學習，特別是 TinyML 跟 Edge AI，期盼未來能將這些技術應用在智慧機器人領域。"
+  },
+  "ProjectsPage": {
+    "title": "作品",
+    "projects": {
+      "asar": {
+        "name": "ASAR 聊天機器人設計平台",
+        "description": "Asar是一款輕量級聊天機器人設計平台，將聊天機器人與樹莓派結合，提供一條龍的聊天機器人服務部署流程。開發者僅需一片微型單板電腦，就能輕鬆創造專屬於自己的聊天機器人。"
+      },
+      "sensorAdapterStm8": {
+        "name": "LEGO EV3 的類比/數位感測器適配器 (STM8 版本)",
+        "description": "眾所周知，一般的類比/數位感測器無法直接與 LEGO EV3 通訊。因此，我們使用 MCU 將感測器資訊轉換成 LEGO UART 格式，再透過 LEGO UART 協議將資訊傳送至 EV3 主機。"
+      },
+      "sensorAdapterAttiny85": {
+        "name": "LEGO EV3 的類比/數位感測器適配器 (Attiny85 版本)",
+        "description": "眾所周知，一般的類比/數位感測器無法直接與 LEGO EV3 通訊。因此，我們使用 MCU 將感測器資訊轉換成 LEGO UART 格式，再透過 LEGO UART 協議將資訊傳送至 EV3 主機。"
+      },
+      "huskylensAdapter": {
+        "name": "LEGO EV3 的 HuskyLens 適配器 (支援 SPIKE/RI)",
+        "description": "一個能讓 HuskyLens 與 LEGO EV3 進行通訊的適配器。"
+      },
+      "retailpia": {
+        "name": "Retailpia",
+        "description": "一款結合島嶼建造、故事、記帳與集點的遊戲作品，並獲得了 Showcode Level-Up Society 黑客松的 Better Retail 獎."
+      },
+      "smartCigaretteButtRecyclingStation": {
+        "name": "智慧菸蒂回收站",
+        "description": "一個結合菸蒂回收及押金制度的概念，督促吸菸者妥善處理菸蒂，從而改善環境污染。菸蒂辨識採用 Mask R-CNN 技術，能準確識別出複雜背景中的菸蒂。此概念在 AI EXPO 2022 比賽中入圍前十名。"
+      },
+      "usefulEV3Blocks": {
+        "name": "EV3 Blocks",
+        "description": "自製 EV3 的命令方塊，潛解EV3軟體沒有給你的進階功能，提升程式流暢度，抑或讓 NXT 感測器復活。"
+      }
+    }
+  },
+  "JourneyPage": {
+    "title": "時間軸",
+    "journey": {
+      "nchuCsieMastersDegree": {
+        "name": "正在完成資訊工程碩士學位 - 中興大學",
+        "location": "台灣"
+      },
+      "nutcCsieBachelorsDegree": {
+        "name": "取得資訊工程學士學位 - 台中科技大學",
+        "location": "台灣"
+      },
+      "aiExpo2022": {
+        "name": "AI EXPO 2022 - 入圍前十名",
+        "location": "台灣"
+      },
+      "showcodeLevelUpSociety": {
+        "name": "Showcode Level-Up Society 黑客松 - Better Retail 獎.",
+        "location": "英國"
+      },
+      "WROInternationalFinal2019": {
+        "name": "2019 國際奧林匹克機器人大賽 - 國際總決賽 - 第三名(教練)",
+        "location": "匈牙利"
+      },
+      "WROTaiwanNationalFinal2019": {
+        "name": "2019 國際奧林匹克機器人大賽 - 台灣全國總決賽 - 第一名、第二名、第三名(教練)",
+        "location": "台灣"
+      },
+      "the47thNationalSkillsCompetition": {
+        "name": "第47屆全國技能競賽-機器人職類 - 第四名",
+        "location": "台灣"
+      },
+      "the47thCentralRegionalSkillsCompetition": {
+        "name": "第47屆全國技能競賽中區賽 - 機器人職類 - 第二名",
+        "location": "台灣"
+      },
+      "WROInternationalFinal2015": {
+        "name": "2015 國際奧林匹克機器人大賽 - 國際總決賽 - 第六名",
+        "location": "卡達"
+      }
+    }
+  }
+}

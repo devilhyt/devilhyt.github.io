@@ -1,0 +1,64 @@
+[
+  {
+    "name": "NCHU CSIE Master's Degree",
+    "key": "nchuCsieMastersDegree",
+    "location": "Taichung, Taiwan",
+    "date": "2024-9"
+  },
+  {
+    "name": "NUTC CSIE Bachelor's Degree",
+    "key": "nutcCsieBachelorsDegree",
+    "location": "Taichung, Taiwan",
+    "date": "2023-6",
+    "imageUrl": "/images/journey/nutc-csie-bachelors-degree.jpg"
+  },
+  {
+    "name": "AI EXPO 2022",
+    "key": "aiExpo2022",
+    "location": "Taiwan",
+    "date": "2022-5",
+    "imageUrl": "/images/journey/ai-expo-2022.jpg"
+  },
+  {
+    "name": "Showcode Level-Up Society",
+    "key": "showcodeLevelUpSociety",
+    "location": "London, United Kingdom",
+    "date": "2021-7",
+    "imageUrl": "/images/journey/showcode-level-up-society.png"
+  },
+  {
+    "name": "World Robot Olympiad International Final 2019",
+    "key": "WROInternationalFinal2019",
+    "location": "Hungary",
+    "date": "2019-11",
+    "imageUrl": "/images/journey/world-robot-olympiad-international-final-2019.jpg"
+  },
+  {
+    "name": "World Robot Olympiad Taiwan National Final 2019",
+    "key": "WROTaiwanNationalFinal2019",
+    "location": "Taiwan",
+    "date": "2019-11",
+    "imageUrl": "/images/journey/world-robot-olympiad-taiwan-national-final-2019.jpg"
+  },
+  {
+    "name": "The 47th National Skills Competition Robot Category",
+    "key": "the47thNationalSkillsCompetition",
+    "location": "Taiwan",
+    "date": "2017-8",
+    "imageUrl": "/images/journey/the-47th-national-skills-competition.jpg"
+  },
+  {
+    "name": "The 47th Central Regional Skills Competition Robot Category",
+    "key": "the47thCentralRegionalSkillsCompetition",
+    "location": "Taichung, Taiwan",
+    "date": "2017-4",
+    "imageUrl": "/images/journey/the-47th-central-regional-skills-competition.jpg"
+  },
+  {
+    "name": "World Robot Olympiad International Final 2015",
+    "key": "WROInternationalFinal2015",
+    "location": "Qatar",
+    "date": "2015-11",
+    "imageUrl": "/images/journey/world-robot-olympiad-international-final-2015.jpg"
+  }
+]

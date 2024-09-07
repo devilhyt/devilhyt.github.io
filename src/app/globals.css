@@ -1,0 +1,16 @@
+/* @layer tailwind {
+  @tailwind base;
+}
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+  --header-min-height: rem(64px);
+  --header-height: var(--header-min-height);
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-padding-top: var(--header-min-height);
+}
+

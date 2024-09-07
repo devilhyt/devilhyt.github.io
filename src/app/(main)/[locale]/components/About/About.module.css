@@ -1,0 +1,124 @@
+.section {
+  min-height: calc(100svh - var(--header-height));
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  background-size: cover;
+  background-position: center;
+
+  /* responsive */
+  background-image: url("/images/about-bg-sm.jpg");
+
+  @media (min-width: $mantine-breakpoint-sm) {
+    background-image: url("/images/about-bg.jpg");
+  }
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  max-width: rem(900px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--mantine-spacing-md);
+  padding-bottom: var(--mantine-spacing-xl);
+  
+  /* responsive */
+  align-items: center;
+
+  @media (min-width: $mantine-breakpoint-sm) {
+    align-items: flex-end;
+  }
+}
+
+.title {
+  color: var(--mantine-color-white);
+  font-weight: 700;
+  line-height: 1.4;
+  z-index: 1;
+  white-space: nowrap;
+  text-shadow: 0 0 0.3em rgb(0, 0, 0);
+  margin-top: var(--mantine-spacing-md);
+  margin-bottom: var(--mantine-spacing-md);
+
+  /* responsive */
+  font-size: rem(48px);
+
+  @media (min-width: $mantine-breakpoint-sm) {
+    font-size: rem(60px);
+  }
+}
+
+.photoDesc {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  font-style: italic;
+  color: var(--mantine-color-gray-4);
+  text-shadow: 0 0 0.5em rgb(0, 0, 0);
+
+  /* responsive */
+  font-size: var(--mantine-font-size-xs);
+  padding: var(--mantine-spacing-xs);
+
+  @media (min-width: $mantine-breakpoint-sm) {
+    font-size: var(--mantine-font-size-md);
+    padding: var(--mantine-spacing-md);
+  }
+}
+
+.innerContainer {
+  display: grid;
+  gap: var(--mantine-spacing-md);
+  justify-items: center;
+
+  /* responsive */
+  align-items: center;
+  grid-auto-flow: row;
+
+  @media (min-width: $mantine-breakpoint-sm) {
+    align-items: start;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+.authorPicture {
+  border-radius: var(--mantine-radius-lg);
+
+  /* responsive */
+  max-width: 70%;
+
+  @media (min-width: $mantine-breakpoint-sm) {
+    max-width: unset;
+  }
+}
+
+.selfIntro {
+  color: var(--mantine-color-white);
+  position: relative;
+  isolation: isolate;
+  padding: var(--mantine-spacing-md);
+  white-space: pre-wrap;
+
+  /* responsive */
+  font-size: rem(18px);
+  
+  @media (min-width: $mantine-breakpoint-sm) {
+    font-size: rem(24px);
+  }
+
+}
+
+.selfIntro::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: .6;
+  background: black;
+  z-index: -1;
+  border-radius: var(--mantine-radius-lg);
+}

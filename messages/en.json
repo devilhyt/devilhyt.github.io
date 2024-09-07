@@ -1,0 +1,92 @@
+{
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "journey": "Journey"
+  },
+  "HomePage": {
+    "greet": "Hello!",
+    "title": "I'm ",
+    "name": "HsiangYi",
+    "subtitle": "A Robotics Enthusiast"
+  },
+  "AboutPage": {
+    "about me": "About Me",
+    "self intro": "Hello! I'm Tsai Hsiang-Yi, a passionate self-taught enthusiast of Intelligent Robotics. I've represented Taiwan as both a competitor and coach in international robotics competitions.\n\nRecently, I've been focusing on Machine Learning, particularly TinyML and Edge AI. I'm excited to explore how these technologies can be integrated into the future of Intelligent Robotics."
+  },
+  "ProjectsPage": {
+    "title": "Projects",
+    "projects": {
+      "asar": {
+        "name": "ASAR Chatbot Design Platform",
+        "description": "Asar is a lightweight platform for designing chatbots, seamlessly integrating with Raspberry Pi to offer a streamlined, end-to-end chatbot deployment process. With just a single-board computer, developers can effortlessly create their own custom chatbot."
+      },
+      "sensorAdapterStm8": {
+        "name": "Analog / Digital Sensor Adapter for LEGO EV3 (STM8 Version)",
+        "description": "As is well known, common analog/digital sensors cannot communicate directly with the LEGO EV3. Therefore, we use a MCU to convert sensor data and information into LEGO UART format and then transmit the information to the EV3 host via the LEGO UART Protocol."
+      },
+      "sensorAdapterAttiny85": {
+        "name": "Analog / Digital Sensor Adapter for LEGO EV3 (Attiny85 Version)",
+        "description": "As is well known, common analog/digital sensors cannot communicate directly with the LEGO EV3. Therefore, we use a MCU to convert sensor data and information into LEGO UART format and then transmit the information to the EV3 host via the LEGO UART Protocol."
+      },
+      "huskylensAdapter": {
+        "name": "HuskyLens Adapter For LEGO EV3 (Support SPIKE/RI)",
+        "description": "An adapter allow HuskyLens communication with LEGO EV3 (support SPIKE/RI)."
+      },
+      "retailpia": {
+        "name": "Retailpia",
+        "description": "A game blending island-building, storytelling, accounting, and points collection, winner of the Better Retail award at the Showcode Level-Up Society Hackathon."
+      },
+      "smartCigaretteButtRecyclingStation": {
+        "name": "Smart Cigarette Butt Recycling Station",
+        "description": "A concept that combines cigarette butt recycling with a deposit system to encourage proper disposal and reduce pollution. It uses Mask R-CNN technology for accurate recognition of cigarette butts in complex backgrounds. This idea was a top ten finalist at AI EXPO 2022."
+      },
+      "usefulEV3Blocks": {
+        "name": "Useful EV3 Blocks",
+        "description": "Homemade EV3 blocks, give you advanced functions, or make NXT sensor new life."
+      }
+    }
+  },
+  "JourneyPage": {
+    "title": "Journey",
+    "journey": {
+      "nchuCsieMastersDegree": {
+        "name": "Pursuing Master's Degree in Computer Science and Information Engineering - National Chung Hsing University",
+        "location": "Taiwan"
+      },
+      "nutcCsieBachelorsDegree": {
+        "name": "Completed Bachelor's Degree in Computer Science and Information Engineering - National Taichung University of Science and Technology",
+        "location": "Taiwan"
+      },
+      "aiExpo2022": {
+        "name": "AI EXPO 2022 - Top 10 Finalist",
+        "location": "Taiwan"
+      },
+      "showcodeLevelUpSociety": {
+        "name": "Showcode Level-Up Society Hackathon - Better Retail Award",
+        "location": "UK"
+      },
+      "WROInternationalFinal2019": {
+        "name": "2019 World Robot Olympiad - International Final - 3rd Place (Coach)",
+        "location": "Hungary"
+      },
+      "WROTaiwanNationalFinal2019": {
+        "name": "2019 World Robot Olympiad - Taiwan National Final - 1st, 2nd, and 3rd Place (Coach)",
+        "location": "Taiwan"
+      },
+      "the47thNationalSkillsCompetition": {
+        "name": "The 47th National Skills Competition - Robotics Category - 4th Place",
+        "location": "Taiwan"
+      },
+      "the47thCentralRegionalSkillsCompetition": {
+        "name": "The 47th Central Regional Skills Competition - Robotics Category - 2nd Place",
+        "location": "Taiwan"
+      },
+      "WROInternationalFinal2015": {
+        "name": "2015 World Robot Olympiad - International Final - 6th Place",
+        "location": "Qatar"
+      }
+    }
+  }
+}

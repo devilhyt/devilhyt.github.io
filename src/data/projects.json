@@ -1,0 +1,116 @@
+[
+  {
+    "name": "ASAR Chatbot Design Platform",
+    "key": "asar",
+    "imageUrl": "https://raw.githubusercontent.com/devilhyt/asar/master/img/asar_logo.png",
+    "keywords": [
+      "Chatbot",
+      "Raspberry Pi",
+      "Docker",
+      "Blockly",
+      "NLP",
+      "TinyML",
+      "Edge AI"
+    ],
+    "links": {
+      "github": "https://github.com/devilhyt/asar",
+      "video": "https://youtu.be/qPC17DJIEco?si=u2HFhm_RCMBWWLn9"
+    }
+  },
+  {
+    "name": "Analog / Digital Sensor Adapter for LEGO EV3 (STM8 Version)",
+    "key": "sensorAdapterStm8",
+    "imageUrl": "https://raw.githubusercontent.com/devilhyt/sensor-adapter-stm8-public/master/img/board.png",
+    "keywords": [
+      "STM8",
+      "C",
+      "UART",
+      "LEGO EV3",
+      "bare metal",
+      "firmware dev"
+    ],
+    "links": {
+      "github": "https://github.com/devilhyt/sensor-adapter-stm8-public"
+    }
+  },
+  {
+    "name": "Analog / Digital Sensor Adapter for LEGO EV3 (Attiny85 Version)",
+    "key": "sensorAdapterAttiny85",
+    "imageUrl": "https://raw.githubusercontent.com/devilhyt/sensor-adapter-attiny85-public/master/img/board.png",
+    "keywords": [
+      "Attiny85",
+      "C++",
+      "UART",
+      "LEGO EV3",
+      "Arduino",
+      "firmware dev"
+    ],
+    "links": {
+      "github": "https://github.com/devilhyt/sensor-adapter-attiny85-public"
+    }
+  },
+  {
+    "name": "Huskylens Adapter For LEGO EV3 (support SPIKE/RI)",
+    "key": "huskylensAdapter",
+    "imageUrl": "/images/projects/huskylens-adapter.jpg",
+    "keywords": [
+      "LEGO EV3",
+      "LEGO SPIKE",
+      "LEGO RI",
+      "HuskyLens",
+      "camera",
+      "object detection",
+      "firmware dev"
+    ],
+    "links": {
+      "github": "https://github.com/ofdl-robotics-tw/EV3-HuskyLens-Stuff"
+    }
+  },
+  {
+    "name": "Retailpia",
+    "key": "retailpia",
+    "imageUrl": "/images/projects/retailpia.png",
+    "keywords": [
+      "pygame",
+      "python",
+      "retail",
+      "hackathon",
+      "MVC"
+    ],
+    "links": {
+      "github": "https://github.com/iridiumtao/Retailpia",
+      "video": "https://youtu.be/dIgbv_VPiqI?si=8khcb1-W0lxnZ-K7"
+    }
+  },
+  {
+    "name:": "Smart Cigarette Butt Recycling Station",
+    "key": "smartCigaretteButtRecyclingStation",
+    "imageUrl": "/images/projects/smart-cigarette-butt-recycling-station.jpg",
+    "keywords": [
+      "AI EXPO",
+      "python",
+      "TensorFlow",
+      "Mask R-CNN",
+      "Instance Segmentation"
+    ],
+    "links": {
+      "github": "https://github.com/devilhyt/ai-expo-2022",
+      "video": "https://youtu.be/QbPHjNKfKic?si=WeOIttZsG61aE_2o"
+    }
+  },
+  {
+    "name": "Useful EV3 Blocks",
+    "key": "usefulEV3Blocks",
+    "imageUrl": "/images/projects/useful-ev3-blocks.png",
+    "keywords": [
+      "LEGO EV3",
+      "LabVIEW",
+      "Blocks",
+      "optimization"
+    ],
+    "links": {
+      "video": "https://youtube.com/playlist?list=PLF_X15xORtLofvLq51xe_QqQczS_5ckaL&si=lbrLE_CmoPMn01li",
+      "link": "https://ofdl.tw/en/ev3-hacker/"
+    }
+  }
+]
